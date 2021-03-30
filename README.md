@@ -4,9 +4,9 @@
 
 ### Responsive design + Media query
 
-## 1. Node.js
+### 1. Node.js
 
-## 2. Express.js
+### 2. Express.js
 
 ## To install
 
