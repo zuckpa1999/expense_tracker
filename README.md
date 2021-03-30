@@ -1,14 +1,14 @@
-### Full-stack Expense Tracker
+# Full-stack Expense Tracker
 
 ## What I wanna learn from this project
 
-# Responsive design + Media query
+### Responsive design + Media query
 
-# 1. Node.js
+## 1. Node.js
 
-# 2. Express.js
+## 2. Express.js
 
-# 3. To install
+## To install
 
 ### 1. run `yarn install`
 
