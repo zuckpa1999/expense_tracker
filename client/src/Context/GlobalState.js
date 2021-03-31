@@ -77,7 +77,7 @@ export const GlobalProvider = ({ children }) => {
 
         }
         try {
-            const res = await axios.post(`/api/v1/transactions`, transaction, config)
+            const res = await axios.post(`/api/v1/transactions`, transaction)
             dispatch({
 
                 type: 'ADD_TRANSACTION',
@@ -85,12 +85,15 @@ export const GlobalProvider = ({ children }) => {
             });
         }
         catch (err) {
-            dispatch({
-                type: 'TRANSACTION_ERROR',
-                payload: err.response.data.error
 
-
-            })
+            /* TypeError: undefined is not an object (evaluating 'transaction._id') */
+            alert(err)
+            /*   dispatch({
+                  type: 'TRANSACTION_ERROR',
+                  payload: err.response.data.error
+  
+  
+              }) */
         }
 
     }
